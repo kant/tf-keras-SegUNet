@@ -40,7 +40,7 @@ def argparser():
     parser.add_argument("--val_steps",
             default=1000,
             type=int,
-            help="number of valdation step")
+            help="number of validation step")
     parser.add_argument("--n_labels",
             default=20,
             type=int,
